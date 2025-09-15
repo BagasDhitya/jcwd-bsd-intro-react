@@ -1,0 +1,33 @@
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 1px;
+    background-color: #f9f9f9;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.paragraph {
+    color: #333;
+    background-color: #e0f7fa;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}

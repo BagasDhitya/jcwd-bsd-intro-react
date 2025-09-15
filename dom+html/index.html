@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>DOM Manipulation Example</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Hello World!</h1>
+        <button id="btnText">Update Text</button>
+        <button id="btnAdd">Add Paragraph</button>
+        <button id="btnRemove">Remove Paragraph</button>
+    </div>
+    <div id="content">
+        <!-- Elemen paragraph baru yang akan ditambahkan lewat btnAdd -->
+    </div>
+</body>
+<script>
+    // -- Manipulasi Teks --
+
+    // 1. Update teks
+    // ambil elemen h1
+    const title = document.getElementById('title')
+    const btnText = document.getElementById('btnText')
+
+    btnText.addEventListener('click', () => {
+        // ubah isi teks dari h1
+        title.textContent = 'Updated text'
+    })
+
+    // 2. Tambah paragraph
+    const btnAdd = document.getElementById('btnAdd')
+    const content = document.getElementById('content')
+
+    btnAdd.addEventListener('click', () => {
+        // buat elemen <p> baru
+        const newPara = document.createElement('p')
+        newPara.textContent = 'This is a new paragraph'
+        newPara.classList.add('paragraph') // ini kalo mau ditambahkan class css baru
+        content.appendChild(newPara) // masukkan ke dalam div content
+    })
+
+    // 3. Menghapus paragraph
+    const btnRemove = document.getElementById('btnRemove')
+
+    btnRemove.addEventListener('click', () => {
+        // cek kalau masih ada paragraf di dalam content
+        if (content.lastChild) {
+            content.removeChild(content.lastChild) // hapus elemen terakhir
+        }
+    })
+
+</script>
+
+</html>
