@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Espresso",
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348",
+    "price": 18000,
+    "description": "Kopi hitam pekat dengan cita rasa kuat, cocok untuk penyuka rasa asli kopi."
+  },
+  {
+    "id": 2,
+    "title": "Cappuccino",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+    "price": 25000,
+    "description": "Perpaduan espresso, susu panas, dan busa susu lembut di atasnya."
+  },
+  {
+    "id": 3,
+    "title": "Latte",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+    "price": 27000,
+    "description": "Espresso dengan lebih banyak susu, menghasilkan rasa creamy dan lembut."
+  },
+  {
+    "id": 4,
+    "title": "Mocha",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+    "price": 30000,
+    "description": "Campuran espresso, cokelat, dan susu yang manis dengan sedikit pahit."
+  },
+  {
+    "id": 5,
+    "title": "Cold Brew",
+    "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772",
+    "price": 22000,
+    "description": "Kopi yang diseduh dingin selama beberapa jam, menghasilkan rasa halus dan segar."
+  }
+]
